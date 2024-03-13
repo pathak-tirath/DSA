@@ -10,8 +10,8 @@ let pattern = ''
 for(let i = 1; i< 6; i++){
   for(j = 0; j< i; j++){
     // pattern += (j+1)
-    pattern += (i)
-    // pattern += ("*")
+    // pattern += (i)
+    pattern += ("*")
   }
   pattern += '\n'
 }
